@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="displayCart()">
+
+<h1>Your Cart</h1>
+
+<div id="cartItems"></div>
+
+<h3>Total: ₹<span id="total"></span></h3>
+
+<h3>Customer Details</h3>
+<input type="text" id="custName" placeholder="Name">
+<input type="text" id="custAddress" placeholder="Address">
+<input type="time" id="deliveryTime">
+
+<button onclick="placeOrder()">Place Order</button>
+
+<script src="script.js"></script>
+</body>
+</html>
